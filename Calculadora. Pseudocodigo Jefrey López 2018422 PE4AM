@@ -1,0 +1,21 @@
+Algoritmo Calculadora 
+	Escribir "Ingrese un valor"
+	Leer A
+    Escribir "Ingrese un signo (-,+,*,/)" 
+	Leer signo
+	Escribir "Ingrese el otro valor"
+	leer B
+	
+    Si signo="+" Entonces
+		Escribir "El resultado de la suma es " A+B
+	FinSi
+	Si signo="-" Entonces
+		Escribir "El resultado de la resta es " A-B
+	FinSi
+	Si signo="*" Entonces
+		Escribir "El resultado de la multiplicación es " A*B
+	FinSi
+	Si signo="/" Entonces
+		Escribir "El resultado de la división es " A/B
+	FinSi
+FinAlgoritmo
